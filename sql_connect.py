@@ -14,11 +14,6 @@ def get_sql(query, database=db):
     return pd.read_sql(query, database)
 
 
-if __name__ == "__main__":
-    print(get_sql("select * from tb_care"))
-    print(get_sql("select * from tb_svc_locale"))
-    print(get_sql("select * from tb_caregiver"))
-
 
 
 '''
